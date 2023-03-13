@@ -1,18 +1,35 @@
-UCI said: position fen 8/2p5/K2p4/1P5r/1R3p2/6k1/4P1P1/8 w - - 0 1
-
-UCI said: go perft 1
-
-UCI said: go perft 2
-
-UCI said: go perft 3
-
-UCI said: go perft 4
-
-UCI said: go perft 5
-
-UCI said: go perft 6
-
 UCI said: ucinewgame
 
-UCI said: go perft 6
+UCI said: go 
+
+a2a3
+UCI said: position fen 8/8/4k3/8/8/2Kr4/8/8 w - - 0 1
+
+UCI said: d
+
+UCI said: go
+
+c3d3
+UCI said: position fen 8/8/4k3/8/1q6/2Kr4/8/8 w - - 0 1
+
+UCI said: d
+
+UCI said: go
+
+c3b4
+UCI said: position fen 5k2/3N4/8/2q1r3/8/8/5K2/8 b - - 0 1
+
+UCI said: d
+
+UCI said: go
+
+f8e8
+UCI said: position fen 8/4k3/8/2N1r3/8/8/5K2/8 b - - 0 1
+
+UCI said: d
+
+UCI said: go
+
+e5c5
+UCI said: 
 

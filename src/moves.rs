@@ -83,7 +83,7 @@ impl Move {
             Promotion::Queen => str += "q",
             Promotion::Rook => str += "r",
             Promotion::Bishop => str += "b",
-            Promotion::Knight => str += "k",
+            Promotion::Knight => str += "n",
             Promotion::None => (),
         }
         str
@@ -91,8 +91,8 @@ impl Move {
 
     /// Constructor for new moves - Mostly a placeholder for initializing variables that will
     /// certainly be changed at some other point during the runtime of the function
-    pub fn new() -> Self {
-        Move { starting_idx: 0, end_idx: 0, castle: Castle::None, promotion: Promotion::None, piece_moving: PieceName::King, capture: None }
+    pub fn invalid() -> Self {
+        Move { starting_idx: -1, end_idx: -1, castle: Castle::None, promotion: Promotion::None, piece_moving: PieceName::King, capture: None }
     }
 }
 
